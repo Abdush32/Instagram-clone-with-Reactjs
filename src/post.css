@@ -1,0 +1,46 @@
+.post_header{
+    display: flex;
+    align-items: center;
+
+}
+.card-title {
+    margin-bottom: -0.25rem;
+}
+.post_avatar{
+    margin: 10px;
+}
+.post{
+    max-width: 550px;
+    background-color: gray;
+    margin-bottom: 40px;
+    margin-left: 210px;
+}
+.postcomment_box{
+display: flex;
+flex-direction: row;
+}
+.post_input{
+    flex: 1;
+}
+.post_button{
+    flex: 0;
+    background-color: white;
+    color: #0095F6;
+    border: 1px solid gray;
+    border-radius: 16px;
+
+
+}
+.insta_icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+ 
+}
+.post_deletePost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+    opacity: 0.5;
+}

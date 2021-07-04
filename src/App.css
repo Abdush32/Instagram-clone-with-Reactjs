@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  
+}
+.App{
+  background-color:#FAFAFA;
+  height: 100vh;
+}
+.app_header{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.last_input  {
+  margin-bottom: 10px;
+}
+.app_image{
+  object-fit: contain;
+}
+.icon_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.icon_flex a{
+  padding: 10px;
+}
+.inputforsearch{
+
+
+  font-size: 13px;
+  padding: 10px;
+  height: 3px;
+  width: 200px
+}
+.post_all{
+  padding: 25px;
+}
+.loginpop{
+  background-color: white;
+  border: 0;
+}
+.logout{
+color: blueviolet;
+  border: 0;
+}

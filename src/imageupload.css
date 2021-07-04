@@ -1,0 +1,16 @@
+.upload_box{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+
+ 
+}
+.imageupload__progress{
+    width: 100%;
+    
+}
